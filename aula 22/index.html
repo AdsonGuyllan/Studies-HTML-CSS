@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: bisque;
+            text-align: justify;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: lightgray;
+            margin: 15px;
+            padding: 15px;
+        }
+        h1{
+            font-family: fantasy;
+            font-weight: normal;
+            font-size: 3em;
+            text-align: center;
+            border: 5px dashed black;
+        }
+        nav{
+            font-size: 15px;
+            text-align: center;
+            background-color: khaki;
+            box-shadow: 5px 3px 3px slategrey;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+        }
+        nav > a:hover{
+            color: red;
+        }
+        main{
+            background-color: thistle;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px slategrey;
+        }
+        h2{
+            text-align: center;
+            font-family: cursive;
+            font-weight: bold;
+            background-color: saddlebrown;
+            color: white;
+        }
+        aside{
+            background-color: slategray;
+            text-align: center;
+            margin: 5px 115px;
+        }
+        footer{
+            background-color: teal;
+            padding: 20px;
+            text-align: center;
+            font-size: larger;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site avulso</h1>
+        <nav>
+            <a href="#">One</a>
+            <a href="#">Two</a>
+            <a href="#">Three</a>
+            <a href="#">Four</a>
+            <a href="#">Five</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do dia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit libero unde veniam consequuntur quod repellendus nisi praesentium, sed, sapiente quasi magni voluptas tempora dicta numquam aut omnis voluptatibus veritatis?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempore quaerat laboriosam suscipit rem esse similique ad, sed beatae eum quis at tenetur error sapiente ratione aspernatur accusantium a quidem.</p>
+                <aside>
+                    <p>Escrito por Fulano</p>
+                </aside>
+            </article>
+        </section>
+        <section id="politica">
+            <article>
+                <h2>Polêmicas da política</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas modi ipsam aspernatur reprehenderit beatae vel nulla architecto voluptate vero, a qui pariatur ab et iste quo officiis quia non.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa assumenda illum sed reiciendis. Id in nemo voluptatem, iste eius quisquam quod dolor nulla maiores obcaecati eos corrupti iure dicta possimus?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur laborum reiciendis nisi quibusdam amet, eum harum maiores quae rerum fugit aliquam ea repudiandae, asperiores deleniti possimus sed a voluptatibus quos.</p>
+                <aside>
+                    <p>Escrito por Cicrano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Site dirigido por Adson Guyllan
+    </footer>
+</body>
+</html>
